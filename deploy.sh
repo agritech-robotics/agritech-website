@@ -1,3 +1,4 @@
+npm install
 rm -rf public
 git clone --depth 1 https://nubonetics:$GITHUB_ACCESS_TOKEN@github.com/agritech-robotics/agritech-robotics.github.io.git public
 hugo --config config.toml
